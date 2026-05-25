@@ -8,7 +8,7 @@ Our TPU comprises of a MAC array of parametrizable tile size, which can be confi
 
 We plan to design our arithmetic units to switch between various datatypes- namely FP32, BF16, and INT32. This enables accuracy-aware inference, so that stages less critical for accuracy can utilize integer arithmetic for improved efficiency.
 
-We plan to take our design through all stages of a tapeout - RTL, verification, GDS, tapeout, using open source tools for digital IC tapeout like verilator, openlane, etc. We plan to utlilze the GF180 node as our technology, as it's the standard for the competition.
+We plan to take our design through all stages of a tapeout - RTL, verification, GDS, tapeout, using open source tools for digital IC tapeout like verilator, openlane, etc. We plan to utlilze the GF180MCU node as our technology, as it's the standard for the competition.
 
 Detailed specifications (will be updated as the project progresses): https://docs.google.com/document/d/1Bf-AeR-BTfjls6UAFFtR-kkuU665zslCVYjlpTkNTXs/edit?usp=drivesdk
 
